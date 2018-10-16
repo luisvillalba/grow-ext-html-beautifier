@@ -1,0 +1,7 @@
+{
+  "/content/pages/home.yaml": [
+    "/views/partials/footer/footer.html",
+    "/views/partials/header/header.html",
+    "/views/partials/hero/hero.html"
+  ]
+}

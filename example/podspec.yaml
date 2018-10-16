@@ -1,0 +1,9 @@
+localization:
+  default_locale: en
+
+ext:
+- extensions.html_beautifier.HtmlBeautifierExtension:
+    options:
+      tab_size: 2
+      trigger: True
+
