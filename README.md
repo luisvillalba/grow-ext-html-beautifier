@@ -15,7 +15,7 @@ Grow 0.5.1 or higher
 1. Run `grow install`.
 1. Add the following section to `podspec.yaml`:
 
-```
+```yaml
 ext:
 - extensions.html_min.HtmlBeautifierExtension
 ```
@@ -34,7 +34,7 @@ You can also specify custom parameters in your podspec:
   the build.
 
 Example:
-```
+```yaml
 ext:
 - extensions.html_beautifier.HtmlBeautifierExtension:
     options:
@@ -45,7 +45,7 @@ ext:
 
 ## Contributing
 Set up a development environment.
-```
+```yaml
 git clone https://github.com/luisvillalba/grow-ext-html-beautifier.git
 cd example/
 grow install && grow build
